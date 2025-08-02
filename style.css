@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif
+}
+
+h1{
+    text-align: center;
+    margin: 8px;
+}
+
+section#one{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+input,button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+#submit-btn{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+
+}
+
+#submit-btn:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+#idea{
+    width: 70%;
+}
+
+
+/* //-------------------------------------------------------------- */
+
+#posts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 35px;
+}
+
+.post-card {
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+#like-btn{
+    background-color: rgb(244, 116, 137);
+    color: white;
+    border: 2px solid white;
+
+}
+#like-btn:hover{
+    background-color: deeppink;
+}
+
+#delete-btn{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+
+#delete-btn:hover{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+}
